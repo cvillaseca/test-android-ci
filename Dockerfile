@@ -25,3 +25,6 @@ ENV PATH=$PATH:$GRADLE_HOME/bin
 
 # install Firebase CLI
 RUN npm install -g firebase-tools
+
+COPY Gemfile* ./
+RUN bundle install
