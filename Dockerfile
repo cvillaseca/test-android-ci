@@ -28,3 +28,4 @@ RUN npm install -g firebase-tools
 
 COPY Gemfile* ./
 RUN bundle install
+RUN bundle update
