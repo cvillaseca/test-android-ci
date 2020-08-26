@@ -20,7 +20,7 @@ RUN \
   rm gradle-6.6.1-bin.zip
 
 # Export some environment variables
-ENV GRADLE_HOME=/usr/local/gradle-6.2.1
+ENV GRADLE_HOME=/usr/local/gradle-6.6.1
 ENV PATH=$PATH:$GRADLE_HOME/bin
 
 # install Firebase CLI
